@@ -1,5 +1,5 @@
 const home = function(){
-    const container = document.querySelector("#container")
+    const container = document.querySelector("#content")
 
     //header stuff
     const header = document.createElement("div")
@@ -18,7 +18,7 @@ const home = function(){
     menuButton.innerText = "Menu"
 
     container.appendChild(header)
-    header.appendChild(menu)
+    header.appendChild(pages)
     pages.append(homeButton, contactButton, menuButton)
 
     //body stuff
@@ -40,7 +40,11 @@ const home = function(){
     openingHours.classList.add("opening-hours")
     openingText.classList.add("opening-text")
     openingElement.classList.add("opening-element")
-    openingItem.classList.add("opening-item")
+    openingItem1.classList.add("opening-item")
+    openingItem2.classList.add("opening-item")
+    openingItem3.classList.add("opening-item")
+    openingItem4.classList.add("opening-item")
+    openingItem5.classList.add("opening-item")
 
     img.src = ""
     slogan.innerText = "Come on down to Tasty Divine! Try our amazing food!"
