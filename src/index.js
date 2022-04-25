@@ -6,6 +6,6 @@
 // const li1 = document.createElement("li")
 // const li2 = document.createElement("li")
 // const li3 = document.createElement("li")
-import createSection from './components/section.js'
+import home from './pages/home.js'
 
-createSection("Random text");
+home()
