@@ -6,6 +6,7 @@
 // const li1 = document.createElement("li")
 // const li2 = document.createElement("li")
 // const li3 = document.createElement("li")
+import './home.css'
 import home from './pages/home.js'
 
 home()

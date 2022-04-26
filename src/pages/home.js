@@ -7,12 +7,16 @@ const home = function(){
     const homeButton = document.createElement("button")
     const contactButton = document.createElement("button")
     const menuButton = document.createElement("button")
+    const restaurantName = document.createElement("h1")
+
+    restaurantName.classList.add("name")
     header.classList.add("header")
     pages.classList.add("pages")
-    homeButton.classList.add("home-button")
-    contactButton.classList.add("contact-button")
-    menuButton.classList.add("menu-button")
+    homeButton.classList.add("buttons")
+    contactButton.classList.add("buttons")
+    menuButton.classList.add("buttons")
 
+    restaurantName.innerText = "Tasty Divine"
     homeButton.innerText = "Home"
     contactButton.innerText = "Contact"
     menuButton.innerText = "Menu"
@@ -20,6 +24,7 @@ const home = function(){
     container.appendChild(header)
     header.appendChild(pages)
     pages.append(homeButton, contactButton, menuButton)
+    header.appendChild(restaurantName)
 
     //body stuff
     const body = document.createElement("div")
