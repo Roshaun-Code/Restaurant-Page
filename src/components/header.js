@@ -8,7 +8,7 @@ const header = function(){
     const menuButton = document.createElement("button")
     const restaurantName = document.createElement("h1")
 
-    restaurantName.classList.add("name")
+    restaurantName.classList.add("restaurant-name")
     header.classList.add("header")
     pages.classList.add("pages")
     homeButton.classList.add("buttons")

@@ -32,7 +32,6 @@ const home = function(){
     openingItem4.classList.add("opening-item")
     openingItem5.classList.add("opening-item")
 
-    img.src = ""
     slogan.innerText = "Come on down to Divine Taste! Try our amazing food!"
     openingText.innerText = "We are open on these days!"
     openingItem1.innerHTML = "Monday: 8am - 4pm" 
@@ -42,8 +41,9 @@ const home = function(){
     openingItem5.innerHTML = "Friday: 8am - 4pm" 
 
     content.appendChild(container)
+    container.appendChild(slogan)
     container.appendChild(body)
-    body.append(img, slogan, openingHours)
+    body.append(img, openingHours)
     openingHours.appendChild(openingElement)
     openingElement.append(openingItem1, openingItem2, openingItem3, openingItem4, openingItem5)
 
