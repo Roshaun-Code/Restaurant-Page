@@ -1,30 +1,11 @@
 const home = function(){
-    const container = document.querySelector("#content")
+    const content = document.querySelector("#content")
+    const container = document.createElement("div")
+    container.classList.add("container")
 
-    //header stuff
-    const header = document.createElement("div")
-    const pages = document.createElement("div")
-    const homeButton = document.createElement("button")
-    const contactButton = document.createElement("button")
-    const menuButton = document.createElement("button")
-    const restaurantName = document.createElement("h1")
-
-    restaurantName.classList.add("name")
-    header.classList.add("header")
-    pages.classList.add("pages")
-    homeButton.classList.add("buttons")
-    contactButton.classList.add("buttons")
-    menuButton.classList.add("buttons")
-
-    restaurantName.innerText = "Tasty Divine"
-    homeButton.innerText = "Home"
-    contactButton.innerText = "Contact"
-    menuButton.innerText = "Menu"
-
-    container.appendChild(header)
-    header.appendChild(pages)
-    pages.append(homeButton, contactButton, menuButton)
-    header.appendChild(restaurantName)
+    // homeContainer.setAttribute("id","home-container")
+    // homeContainer.classList.add("container")
+    // homeContainer.classList.add("active")
 
     //body stuff
     const body = document.createElement("div")
@@ -52,7 +33,7 @@ const home = function(){
     openingItem5.classList.add("opening-item")
 
     img.src = ""
-    slogan.innerText = "Come on down to Tasty Divine! Try our amazing food!"
+    slogan.innerText = "Come on down to Divine Taste! Try our amazing food!"
     openingText.innerText = "We are open on these days!"
     openingItem1.innerHTML = "Monday: 8am - 4pm" 
     openingItem2.innerHTML = "Tuesday: 8am - 4pm"
@@ -60,16 +41,12 @@ const home = function(){
     openingItem4.innerHTML = "Thursday: 8am - 4pm" 
     openingItem5.innerHTML = "Friday: 8am - 4pm" 
 
+    content.appendChild(container)
     container.appendChild(body)
     body.append(img, slogan, openingHours)
     openingHours.appendChild(openingElement)
     openingElement.append(openingItem1, openingItem2, openingItem3, openingItem4, openingItem5)
 
-    //footer stuff
-    const footer = document.createElement("div")
-    footer.classList.add("footer")
-    footer.innerText = "made by roshaun-code"
-    container.appendChild(footer)
 
 }
 

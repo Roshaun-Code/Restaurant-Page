@@ -11,8 +11,7 @@
 }
 
 body{
-    height: 100vh;
-    background:rgba(0, 0, 0, 0.7) url("./pictures/restaurant.jpg");
+    background:rgba(0, 0, 0, 0.7) url("../pictures/restaurant.jpg");
     background-repeat: no-repeat;
     background-color: black;
     background-position: center;
@@ -20,9 +19,9 @@ body{
 }
 
 #content{
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 100px 1fr 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .header{
@@ -30,9 +29,10 @@ body{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    height: 200px;
 }
 
 .pages{
@@ -52,11 +52,23 @@ body{
     font-weight: 700;
 }
 
+.buttons.active{
+    background-color: #aaa;
+    color: black;
+}
+
+.buttons.active:hover{
+    background-color: #ccc;
+    color: black;
+}
+
 .body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 650px;
+    padding-bottom: 50px;
 }
 
 .body > h1{
@@ -80,9 +92,11 @@ body{
     background-color: black;
     border-radius: 15px;
     color: white;
-    font-size: 1.2rem;
-    height: 60%;
-    width: 25%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 450px;
+    width: 300px;
+    padding: 1rem;
 
 }
 
@@ -90,7 +104,8 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 1.5rem;
+    padding: 1rem;
+    height: 100%;
 }
 
 li{
@@ -98,9 +113,26 @@ li{
 }
 
 .footer{
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
+    height: 50px;
+    width: 100%;
 }
+
+/* Contact Page */
+.contact-title{
+    font-weight: 700;
+    color: white;
+}
+
+.contact-info{
+    height: 550px;
+    padding-bottom: 50px;
+}
+
+/* Menu Page */
