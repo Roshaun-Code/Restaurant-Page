@@ -1,3 +1,8 @@
+import burgerimg from '../pictures/burger.png'
+import pizzaimg from '../pictures/pizza.png'
+import saladimg from '../pictures/salad.png'
+import cakeimg from '../pictures/cake.png'
+
 const menuLoad = function(){
     const content = document.querySelector("#content")
     const container = document.createElement("div")
@@ -22,10 +27,10 @@ const menuLoad = function(){
     pizza.classList.add("menu-item")
     salad.classList.add("menu-item")
     cake.classList.add("menu-item")
-    burgerImg.src = "../src/pictures/burger.png"
-    pizzaImg.src = "../src/pictures/pizza.png"
-    saladImg.src = "../src/pictures/salad.png"
-    cakeImg.src = "../src/pictures/cake.png"
+    burgerImg.src = burgerimg
+    pizzaImg.src = pizzaimg
+    saladImg.src = saladimg
+    cakeImg.src = cakeimg
     burger.innerText = "Burger"
     pizza.innerText = "Pizza"
     salad.innerText = "Salad"
