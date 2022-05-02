@@ -186,7 +186,37 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst menuLoad = function(){\n    const content = document.querySelector(\"#content\")\n    const container = document.createElement(\"div\")\n    const menu = document.createElement(\"div\")\n    const menuContainer = document.createElement(\"div\")\n    const burger = document.createElement(\"div\")\n    const pizza = document.createElement(\"div\")\n    const salad = document.createElement(\"div\")\n    const cake = document.createElement(\"div\")\n    const burgerImg = document.createElement(\"img\")\n    const pizzaImg = document.createElement(\"img\")\n    const saladImg = document.createElement(\"img\")\n    const cakeImg = document.createElement(\"img\")\n    container.classList.add(\"container\")\n    menu.classList.add(\"menu\")\n    menuContainer.classList.add(\"menu-container\")\n    burger.classList.add(\"burger\")\n    pizza.classList.add(\"pizza\")\n    salad.classList.add(\"salad\")\n    cake.classList.add(\"cake\")\n    burger.classList.add(\"menu-item\")\n    pizza.classList.add(\"menu-item\")\n    salad.classList.add(\"menu-item\")\n    cake.classList.add(\"menu-item\")\n    burgerImg.src = \"../src/pictures/burger.png\"\n    pizzaImg.src = \"../src/pictures/pizza.png\"\n    saladImg.src = \"../src/pictures/salad.png\"\n    cakeImg.src = \"../src/pictures/cake.png\"\n    burger.innerText = \"Burger\"\n    pizza.innerText = \"Pizza\"\n    salad.innerText = \"Salad\"\n    cake.innerText = \"Cake\"\n\n    const title = document.createElement(\"h1\")\n    title.classList.add(\"menu-title\")\n    title.innerText = \"Menu\"\n    content.appendChild(container)\n    container.appendChild(title)\n    container.appendChild(menu)\n    menu.appendChild(menuContainer)\n    menuContainer.append(burger, pizza, salad, cake)\n    burger.append(burgerImg)\n    pizza.append(pizzaImg)\n    salad.append(saladImg)\n    cake.append(cakeImg)\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuLoad);\n\n//# sourceURL=webpack://restaurant-page/./src/pages/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _pictures_burger_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pictures/burger.png */ \"./src/pictures/burger.png\");\n/* harmony import */ var _pictures_pizza_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pictures/pizza.png */ \"./src/pictures/pizza.png\");\n/* harmony import */ var _pictures_salad_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pictures/salad.png */ \"./src/pictures/salad.png\");\n/* harmony import */ var _pictures_cake_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pictures/cake.png */ \"./src/pictures/cake.png\");\n\n\n\n\n\nconst menuLoad = function(){\n    const content = document.querySelector(\"#content\")\n    const container = document.createElement(\"div\")\n    const menu = document.createElement(\"div\")\n    const menuContainer = document.createElement(\"div\")\n    const burger = document.createElement(\"div\")\n    const pizza = document.createElement(\"div\")\n    const salad = document.createElement(\"div\")\n    const cake = document.createElement(\"div\")\n    const burgerImg = document.createElement(\"img\")\n    const pizzaImg = document.createElement(\"img\")\n    const saladImg = document.createElement(\"img\")\n    const cakeImg = document.createElement(\"img\")\n    container.classList.add(\"container\")\n    menu.classList.add(\"menu\")\n    menuContainer.classList.add(\"menu-container\")\n    burger.classList.add(\"burger\")\n    pizza.classList.add(\"pizza\")\n    salad.classList.add(\"salad\")\n    cake.classList.add(\"cake\")\n    burger.classList.add(\"menu-item\")\n    pizza.classList.add(\"menu-item\")\n    salad.classList.add(\"menu-item\")\n    cake.classList.add(\"menu-item\")\n    burgerImg.src = _pictures_burger_png__WEBPACK_IMPORTED_MODULE_0__\n    pizzaImg.src = _pictures_pizza_png__WEBPACK_IMPORTED_MODULE_1__\n    saladImg.src = _pictures_salad_png__WEBPACK_IMPORTED_MODULE_2__\n    cakeImg.src = _pictures_cake_png__WEBPACK_IMPORTED_MODULE_3__\n    burger.innerText = \"Burger\"\n    pizza.innerText = \"Pizza\"\n    salad.innerText = \"Salad\"\n    cake.innerText = \"Cake\"\n\n    const title = document.createElement(\"h1\")\n    title.classList.add(\"menu-title\")\n    title.innerText = \"Menu\"\n    content.appendChild(container)\n    container.appendChild(title)\n    container.appendChild(menu)\n    menu.appendChild(menuContainer)\n    menuContainer.append(burger, pizza, salad, cake)\n    burger.append(burgerImg)\n    pizza.append(pizzaImg)\n    salad.append(saladImg)\n    cake.append(cakeImg)\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuLoad);\n\n//# sourceURL=webpack://restaurant-page/./src/pages/menu.js?");
+
+/***/ }),
+
+/***/ "./src/pictures/burger.png":
+/*!*********************************!*\
+  !*** ./src/pictures/burger.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"17293268e6ef04cb533e.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/pictures/burger.png?");
+
+/***/ }),
+
+/***/ "./src/pictures/cake.png":
+/*!*******************************!*\
+  !*** ./src/pictures/cake.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8ef7b01743f65b66c106.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/pictures/cake.png?");
+
+/***/ }),
+
+/***/ "./src/pictures/pizza.png":
+/*!********************************!*\
+  !*** ./src/pictures/pizza.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"dcbd5cd6210083079514.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/pictures/pizza.png?");
 
 /***/ }),
 
@@ -197,6 +227,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"2be25b30d6fc89ba410f.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/pictures/restaurant.jpg?");
+
+/***/ }),
+
+/***/ "./src/pictures/salad.png":
+/*!********************************!*\
+  !*** ./src/pictures/salad.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3e3b36e421c5061ffc33.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/pictures/salad.png?");
 
 /***/ })
 
